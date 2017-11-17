@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(white, teal);
+}
+
+.page {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  margin-top: 25px;
+  border: 3px solid Teal;
+  box-shadow: 0px 0px 15px black;
+  background-color: #EEE;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  padding: 40px;
+}
+
+.name {
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  border-bottom: 3px solid;
+  margin-bottom: 10px;
+}
+
+.info_photo {
+height: 200px;
+}
+
+.photo_main {
+  float: right;
+  }
+
+
+img.photo {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+    opacity: 1.0;
+  }
+
+img.photo:hover {
+  opacity: 0.4;
+}
+
+img.icon {
+  width: 60px;
+  max-width: 100%;
+  height: auto;
+}
+
+.icon {
+  opacity: 1.0;
+}
+
+.icon:hover{
+  opacity: 0.4;
+}
+
+.info {
+  float: left;
+}
+
+section {
+  margin-bottom: 35px;
+  text-align: justify;
+
+}
+
+h2 {
+  font-size: 20px;
+  color: Teal;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+strong {
+  font-size: 34px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.section_left {
+  float: left;
+}
+
+.section_right {
+  float: right;
+}
