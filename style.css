@@ -45,9 +45,10 @@ img.photo:hover {
 }
 
 img.icon {
-  width: 60px;
+  width: 50px;
   max-width: 100%;
   height: auto;
+  text-decoration: none;
 }
 
 .icon {
